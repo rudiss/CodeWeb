@@ -67,18 +67,37 @@ body {
 }
 
 .highlightedButton {
-  
+
   background-color: #3B99FC; 
   color: black;
 }
 
 
+textarea {
+  border-color: #EEEEEE;
+  border-top:none; 
+  resize: none;
+}
+
+.panel {
+  
+  float: left;
+  width: 50%
+
+}
+
+iframe {
+
+  border: none;
+
+}
 
 
+.hidden {
 
-
-
-
+  display: none;
+  
+}
 
 
 
