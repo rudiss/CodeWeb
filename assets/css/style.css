@@ -22,7 +22,7 @@ body {
   font-weight:bold;
   padding: 3px 5px;
   color: #1E88E5;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px black ;
 
 }
 
@@ -58,3 +58,29 @@ body {
   border-right: 1px solid rgb(204, 204, 204);
 
 }
+
+.active {
+
+  background-color: #3B99FC;
+  color: white;
+
+}
+
+.highlightedButton {
+  
+  background-color: #3B99FC; 
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

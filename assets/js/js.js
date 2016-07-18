@@ -1,13 +1,16 @@
 $(".toggleButton").hover(function() {
 
-  $(this).css({
-    backgroundColor: '#3B99FC',
-    color: 'white'
-  });
+    $(this).addClass('highlightedButton');
+
 }, function() {
 
-  $(this).css({
-    backgroundColor: '#EEEEEE',
-    color: 'black'
-  });
+    $(this).removeClass('highlightedButton');
+
+});
+
+$(".toggleButton").click(function () {
+
+   $(this).toggleClass('active');
+
+   $(this).removeClass('highlightedButton');
 });
