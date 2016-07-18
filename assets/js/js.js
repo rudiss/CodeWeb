@@ -46,3 +46,9 @@ function updateOutput() {
                 
                 
             });
+
+            $("button").hover(function() {
+                $(this).addClass("portfolio");
+            }, function() {
+                $(this).removeClass("portfolio");
+            });

@@ -6,46 +6,64 @@
   <title>CodeWeb</title>
 </head>
 <body>
-        
-        <div id="header">
-        
-            <div id="logo">
-            
-                CodeWeb
-                
-            </div>
-            
-            <div id="buttonContainer">
-                
-                <div class="toggleButton active" id="html">HTML</div>
-                
-                <div class="toggleButton" id="css">CSS</div>
-                
-                <div class="toggleButton" id="javascript">JavaScript</div>
-                
-                <div class="toggleButton active" id="output">Output</div>
-            
-            </div>
-        
-        </div>
-        
-        <div id="bodyContainer">
-        
-            <textarea id="htmlPanel" class="panel"><p id="paragraph">Hello World!</p></textarea>
-            
-            <textarea id="cssPanel" class="panel hidden">p { color: green; }</textarea>
-            
-            <textarea id="javascriptPanel" class="panel hidden">document.getElementById("paragraph").innerHTML = "Hello Rudis!";</textarea>
-            
-            <iframe id="outputPanel" class="panel"></iframe>
-        
-        
-        </div>
+
+  <div id="header">
+
+    <div id="logo">
+
+      CodeWeb
+
+    </div>
+
+    <div id="buttonContainer">
+      <div class="toggleButton active" id="html">HTML</div>
+
+      <div class="toggleButton" id="css">CSS</div>
+
+      <div class="toggleButton" id="javascript">JavaScript</div>
+
+      <div class="toggleButton active" id="output">Output</div>
+    </div>
+    <a href="http://rudisdev.herokuapp.com" target="_blank"><button>Meu Portfolio</button></a>
+
+  </div>
+
+  <div id="bodyContainer">
+
+    <textarea id="htmlPanel" class="panel">
+            <!------ HTML ------>
 
 
+      <h1>Bem vindo ao CodeWeb</h1>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-  <script type="text/javascript" src="assets/js/js.js"></script>
-</body>
-</html>
+      <p>Teste seu código HTML aqui ;)<p>
+
+      </textarea>
+
+      <textarea id="cssPanel" class="panel hidden">
+              /****** CSS *******/
+
+
+        h1 { 
+
+        color: #1E88E5;
+
+        text-shadow: 1px 1px 1px black ; 
+      } </textarea>
+
+      <textarea id="javascriptPanel" class="panel hidden">
+              /******* JavaScript *******/
+
+
+      </textarea>
+
+      <iframe id="outputPanel" class="panel"></iframe>
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="assets/js/js.js"></script>
+  </body>
+  </html>
